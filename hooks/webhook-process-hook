@@ -31,7 +31,6 @@ def fire_webhook(action, id, commit, commitUrl, who, branch, project):
     headers = {'content-type': 'application/json'}
     requests.post(url, data=json.dumps(payload), headers=headers)
 
-
 def main():
     if (len(sys.argv) < 2):
         show_usage()
