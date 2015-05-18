@@ -37,7 +37,7 @@ def main():
         exit()
 
     need = ['action=', 'change=', 'change-url=', 'commit=', 'project=', 'branch=', 'uploader=',
-            'patchset=', 'abandoner=', 'reason=', 'submitter=']
+            'patchset=', 'abandoner=', 'reason=', 'submitter=', 'is-draft=', 'change-owner=', 'author=', 'comment=']
     optlist, args = getopt.getopt(sys.argv[1:], '', need)
     id = action = commitUrl = who = commit = branch = project = ''
 
