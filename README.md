@@ -1,6 +1,8 @@
 Gerrit webhooks
 ===============
 
+[![Join the chat at https://gitter.im/GetBadges/gerrit-webhooks](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/GetBadges/gerrit-webhooks?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Overview
 --------
 Set of gerrit hooks that will fire webhooks to your URLs. Inspired by jerrit.
